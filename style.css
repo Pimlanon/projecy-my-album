@@ -1,0 +1,587 @@
+@import url("https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&family=Shantell+Sans:wght@300;400;500&display=swap");
+
+/* font-family: 'Kiwi Maru', serif;
+font-family: 'Shantell Sans', cursive; */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100%;
+}
+
+body {
+  font-family: "Shantell Sans", cursive;
+  color: rgb(64, 64, 64);
+}
+/* -------------------------- */
+
+
+
+/* -------------------------------- */
+nav {
+  height: 80px;
+  width: 100%;
+  background-color: #fff;
+  z-index: 99;
+  position: fixed;
+  display: flex;
+  top: 0;
+  /* align-items: center; */
+}
+
+.nav-left {
+    width: 30%;
+    height: 80%;
+    /* border: 1px solid green; */
+    position: absolute;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.nav-left img {
+    height: 100%;
+    width: 15%;
+    cursor: pointer;
+}
+
+.nav-left span {
+    font-size:xx-large;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#grey {
+    color: rgb(140, 140, 140);
+    font-family: 'Kiwi Maru', serif;
+    cursor: pointer;
+}
+
+.nav-right {
+    width: 10%;
+    height: 50%;
+    /* border: 1px solid green; */
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+    margin-top: 1.5%;
+}
+
+.nav-right p {
+    font-size: larger;
+    color: rgb(64, 64, 64);
+}
+
+.nav-right a {
+    text-decoration: none;
+    color: rgb(64, 64, 64);
+}
+
+.nav-right a :hover {
+    color:rgb(140, 140, 140)
+}
+
+
+
+
+.nav-line {
+    width: 100%;
+    height: 2px;
+    background-color: rgb(64, 64, 64);
+    /* margin: 0 auto; */
+    position: absolute;
+    bottom: 0%;
+    z-index: 199;
+}
+/* ------ firstContainer -------------*/
+
+.firstContainer{
+    margin-top: 5%;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid; */
+    overflow: hidden;
+    /* padding-bottom: 10%; */
+}
+
+/* .firstContainer-headtext {
+  padding-bottom: 40%;
+  position: relative;
+
+  width: 100%;
+  
+} */
+
+.firstContainer-headtext-sub {
+  /* border: 1px solid green; */
+  width: 55%;
+  margin-top: 3%;
+  /* height: 20%; */
+  position: relative;
+  /* top: 50%;
+    left: 70%;
+    transform: translate(-50%, 0%); */
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+  float: right;
+}
+
+.headtext-sub-left {
+    text-align: center;
+
+  #sub-left-eng {
+    font-size: xxx-large;
+  }
+
+  #sub-left-jp {
+    font-family: "Kiwi Maru", serif;
+    font-size: xx-large;
+  }
+}
+
+.headtext-sub-right {
+  /* border: 1px solid green; */
+  height: 40%;
+}
+
+.headtext-sub-right p:nth-child(1) {
+  font-size: x-large;
+}
+
+.headtext-sub-right p:nth-child(2) {
+  font-family: "Kiwi Maru", serif;
+  font-size: large;
+  background-color: rgb(64, 64, 64);
+  color: #fff;
+}
+
+.first-sub {
+  /* border: 1px solid green; */
+  width: 80%;
+  position: relative;
+  height: 60%;
+  top: 5%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+
+.first-sub-left {
+    /* border: 1px solid green; */
+    width: 48%;
+    height: 100%;
+}
+
+.first-sub-left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.first-sub-right {
+    /* border: 1px solid green; */
+    width: 48%;
+    height: 100%;
+    position: relative;
+}
+
+.first-sub-right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.first-sub-right-top {
+    /* border: 1px solid green; */
+    width: 100%;
+    height: 60%;
+}
+
+.first-sub-right-bottom {
+    /* border: 1px solid green; */
+    width: 100%;
+    height: 31%;
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+
+    .right-bottom-1 {
+        /* border: 1px solid green; */
+        width: 46%;
+        height: 100%;
+    }
+
+    .right-bottom-2 {
+        /* border: 1px solid green; */
+        width: 46%;
+        height: 100%;
+    }
+}
+
+.first-line {
+    width: 80%;
+    height: 2px;
+    background-color: rgb(64, 64, 64);
+    /* margin: 0 auto; */
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    
+}
+
+/* ----------------------------------- */
+
+.secondContainer {
+    /* margin-top: 10%; */
+    /* border: 1px solid rgb(102, 42, 175); */
+    position: relative;
+    width: 100%;
+    height: 80%;
+    /* padding-bottom: 10%; */
+}
+
+.secondContainer-headtext {
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+    text-align: center;
+
+    #second-headtext-eng {
+        font-size: xxx-large;
+    }
+    #second-headtext-jp {
+        font-family: "Kiwi Maru", serif;
+        font-size: xx-large;
+    }
+}
+
+.secondContainer article {
+    /* border: 1px solid rgb(141, 119, 168); */
+    width: 80%;
+    position: relative;
+    height: 400px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    text-align: center;
+}
+
+.second-article-text {
+    /* border: 1px solid rgb(102, 42, 175); */
+    display: inline-block;
+    margin-top: 20px;
+    width: 80%;
+    text-align: center;
+}
+
+.second-article-text p {
+    font-size: larger;
+}
+
+.secondContainer article figure {
+    /* border: 1px solid rgb(102, 42, 175); */
+    height: 40%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondContainer article figure div {
+    /* border: 1px solid rgb(102, 42, 175); */
+    width: 24%;
+    height: 100%;
+
+}
+
+.secondContainer article figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.secondContainer article button {
+    position: absolute;
+    bottom: 10%;
+    font-family: "Shantell Sans", cursive;
+    color: white;
+    font-size: medium;
+    background-color: rgb(64, 64, 64);
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    left: 45%;
+}
+
+.second-line {
+    width: 80%;
+    height: 2px;
+    background-color: rgb(64, 64, 64);
+    /* margin: 0 auto; */
+    left: 10%;
+    position: absolute;
+    bottom: 0;
+}
+
+/* ----------------------------------- */
+
+.thirdContainer {
+    /* border: 1px solid hotpink; */
+    width: 100%;
+    height: 80%;
+    /* margin-top: 3%; */
+    /* padding-bottom: 50%; */
+    position: relative;
+}
+
+.thirdContainer-headtext {
+
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+
+    #third-headtext-eng {
+        font-size: xxx-large;
+    }
+    #third-headtext-jp {
+        font-family: "Kiwi Maru", serif;
+        font-size: xx-large;
+    }
+}
+
+.thirdContainer article {
+    /* border: 1px solid hotpink; */
+    width: 80%;
+    position: relative;
+    height: 300px;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    text-align: center;
+}
+
+.thirdContainer article figure {
+    /* border: 1px solid rgb(102, 42, 175); */
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.thirdContainer article figure div {
+    /* border: 1px solid rgb(175, 42, 66); */
+    width: 24%;
+    height: 100%;
+    top:0;
+    /* position: absolute; */
+}
+
+.thirdContainer article figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.third-article-text {
+    display: inline-block;
+    /* margin-top: 10px; */
+    margin-bottom: 5%;
+}
+
+.third-article-text p {
+    font-size: larger;
+}
+
+.thirdContainer article button {
+    position: absolute;
+    bottom: -25%;
+    font-family: "Shantell Sans", cursive;
+    color: white;
+    font-size: medium;
+    background-color: rgb(64, 64, 64);
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    left: 45%;
+}
+
+.third-line {
+    width: 80%;
+    height: 2px;
+    background-color: rgb(64, 64, 64);
+    /* margin: 0 auto; */
+    left: 10%;
+    position: absolute;
+    bottom: 0;
+}
+
+/* ------------------------------ */
+
+.forthContainer {
+    /* border: 1px solid rgb(155, 151, 31); */
+    width: 100%;
+    height: 120%;
+    /* margin-top: 3%; */
+    /* padding-bottom: 50%; */
+    position: relative;
+}
+
+.forth-article {
+    /* border: 1px solid rgb(102, 42, 175); */
+    width: 80%;
+    position: relative;
+    height: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.forthContainer-headtext {
+
+    top: 11%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+
+    #forth-headtext-eng {
+        font-size: xxx-large;
+    }
+    #forth-headtext-jp {
+        font-family: "Kiwi Maru", serif;
+        font-size: xx-large;
+    }
+}
+
+.forth-article-text {
+    /* border: 1px solid rgb(102, 42, 175); */
+    display: inline-block;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    top: 8%;
+    width: 90%;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.forth-article-text p {
+    font-size: larger;
+}
+
+.forth-article figure  {
+    /* border: 1px solid rgb(42, 175, 95); */
+    width: 100%;
+    height: 75%;
+    bottom: 5%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.forth-img {
+    /* background-color: antiquewhite; */
+    width: 30%;
+    height: 100%;
+    position: relative;
+}
+
+.forth-img video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.forth-img p {
+    width: 90%;
+    /* background-color: aquamarine; */
+    height: 10%;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+    font-size: larger;
+}
+
+.block-img {
+    height: 100%;
+    background-color:  rgb(64, 64, 64);
+    width: 3px;
+}
+
+/* -------------------- */
+
+footer {
+    height: 30%;
+    width: 100%;
+    position: relative;
+}
+
+.final-text {
+    /* width: 60%; */
+    /* border: 1px solid rgb(42, 175, 95); */
+    width:50%;
+    height: 70%;
+    position: absolute;
+    /* margin: 0 auto; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.final-text p {
+    font-size: 150%;
+    margin-bottom: 1%;
+}
+
+.final-text h2 {
+    font-size: xx-large;
+}
+
+#last-jp{
+    font-family: 'Kiwi Maru', serif;
+    font-size: x-large;
+}
+
+.copyright {
+    width: 100%;
+    height:15%;
+    position: absolute;
+    bottom: 0;
+    background-color:rgb(64, 64, 64);
+}
+
+.copyright p {
+    color: #fff;
+    font-size: medium;
+}
+
+#copvright-jp {
+    font-family: 'Kiwi Maru', serif;
+}
+
+
