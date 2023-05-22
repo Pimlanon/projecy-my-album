@@ -5,26 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>My Album</title>
   </head>
   <body>
     <nav>
-      
-        <div class="nav-left">
-          <img
-            src="./img-jp/C-1.png"
-            alt=""
-            class="click"
-            id="clickme"
-            onclick="topFunction()"
-          />
-          <span onclick="topFunction()">My Album <span id="grey" onclick="topFunction()">私のアルバム</span></span>
-        </div>
-        <div class="nav-right">
-            <a href=""><p>portfolio</p></a>
+      <div class="nav-left">
+        <img
+          src="./img-jp/C-1.png"
+          alt=""
+          class="click"
+          id="clickme"
+          onclick="topFunction()"
+        />
+        <span onclick="topFunction()"
+          >My Album
+          <span id="grey" onclick="topFunction()">私のアルバム</span></span
+        >
+      </div>
+      <div class="nav-right">
+        <a href="https://portfolio-3hjmwcrh5-pimlanon.vercel.app/" target="_blank"><p>portfolio</p></a>
+        <i class="fa-solid fa-moon fa-lg" id="icon"></i>
+      </div>
 
-        </div>
-      
+
       <div class="nav-line"></div>
     </nav>
 
@@ -44,18 +48,18 @@
 
       <div class="first-sub">
         <div class="first-sub-left">
-          <img src="./img-jp/i1.jpg" alt="" />
+          <img src="./img-jp/i1.jpg" alt="" id="banpaku" />
         </div>
         <div class="first-sub-right">
           <div class="first-sub-right-top">
-            <img src="./img-jp/i4.PNG" alt="" />
+            <img src="./img-jp/i4.PNG" alt="" id="miyajima" />
           </div>
           <div class="first-sub-right-bottom">
             <div class="right-bottom-1">
-              <img src="./img-jp/i3.jpg" alt="" />
+              <img src="./img-jp/i3.jpg" alt=""  id="koi"/>
             </div>
             <div class="right-bottom-2">
-              <img src="./img-jp/i2.jpg" alt="" />
+              <img src="./img-jp/i2.jpg" alt="" id="bus" />
             </div>
           </div>
         </div>
@@ -80,18 +84,23 @@
           </p>
         </div>
         <figure>
-          <div>
-            <img src="./img-jp/eki1.jpg" alt="" />
+          <div class="parent-zoom">
+            <div id="senri1" class="senri-img"></div>
           </div>
-          <div>
-            <img src="./img-jp/eki2.jpg" alt="" />
+          <div class="parent-zoom">
+            <div id="senri2" class="senri-img"></div>
           </div>
-          <div>
-            <img src="./img-jp/eki3.jpg" alt="" />
+          <div class="parent-zoom">
+            <div id="senri3" class="senri-img"></div>
           </div>
-          <div>
-            <img src="./img-jp/eki4.jpg" alt="" />
+          <div class="parent-zoom">
+            <div id="senri4" class="senri-img"></div>
           </div>
+  
+          
+          
+         
+         
         </figure>
 
         <button>View More</button>
@@ -114,21 +123,17 @@
           </p>
         </div>
         <figure>
-          <div>
-            <img src="./img-jp/h1.jpg" alt="" />
-            <!-- <p class="third-imgCaption" id="cap1"></p> -->
+          <div class="parent-zoom3">
+            <img src="./img-jp/h1.jpg" alt="" class="dome-img" />
           </div>
-          <div>
-            <img src="./img-jp/h2.jpg" alt="" />
-            <!-- <p class="third-imgCaption" id="cap2"></p> -->
+          <div class="parent-zoom3">
+            <img src="./img-jp/h2.jpg" alt="" class="dome-img" />
           </div>
-          <div>
-            <img src="./img-jp/h3.jpg" alt="" />
-            <!-- <p class="third-imgCaption" id="cap3"></p> -->
+          <div class="parent-zoom3"> 
+            <img src="./img-jp/h3.jpg" alt="" class="dome-img" />
           </div>
-          <div>
-            <img src="./img-jp/h4.jpg" alt="" />
-            <!-- <p class="third-imgCaption" id="cap4"></p> -->
+          <div class="parent-zoom3">
+            <img src="./img-jp/h4.jpg" alt="" class="dome-img" />
           </div>
         </figure>
 
@@ -194,7 +199,7 @@
         <h2 id="last-jp">私のアルバム</h2>
         <div class="copyright">
           <p>
-            &#169;2023 My Album <span id="copvright-jp">私のアルバム</span> all
+            &#169;2023 My Album <span id="copyright-jp">私のアルバム</span> all
             right reserved
           </p>
         </div>
@@ -206,6 +211,13 @@
         window.scrollTo({ top: 0, behavior: "smooth" });
         console.log("top");
       }
+
+      let icon = document.getElementById("icon");
+
+      icon.onclick = function() {
+        document.body.classList.toggle("dark-theme");
+      }
+
     </script>
   </body>
 </html>
