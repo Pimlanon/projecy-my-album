@@ -17,39 +17,37 @@ body {
 
 body {
   font-family: "Shantell Sans", cursive;
-  background-color:  var(--third-color);
+  background-color: var(--third-color);
 }
 
 /* ---------------------------- */
 
 :root {
-    --primary-color: rgb(64, 64, 64);
-    --secondary-color: #fff;
-    --third-color: #fff;
-    --forth-color: rgb(64, 64, 64);
+  --primary-color: rgb(64, 64, 64);
+  --secondary-color: #fff;
+  --third-color: #fff;
+  --forth-color: rgb(64, 64, 64);
 }
 
 .dark-theme {
-    --primary-color: #fff;
-    --secondary-color: rgb(64, 64, 64);
-    --third-color: #000; 
-    --forth-color: invert(100%) sepia(0%) saturate(0%) hue-rotate(344deg) brightness(105%) contrast(101%);
+  --primary-color: #fff;
+  --secondary-color: rgb(64, 64, 64);
+  --third-color: #000;
+  --forth-color: invert(100%) sepia(0%) saturate(0%) hue-rotate(344deg)
+    brightness(105%) contrast(101%);
 }
-
-
 
 /* -------------------------- */
 
 nav {
   height: 80px;
   width: 100%;
-  background-color: var( --third-color);
+  background-color: var(--third-color);
   z-index: 99;
   position: fixed;
   display: flex;
   align-items: center;
   top: 0;
-
 }
 
 .nav-left {
@@ -68,7 +66,7 @@ nav {
   height: 100%;
   width: 15%;
   cursor: pointer;
-  filter: var(--forth-color)
+  filter: var(--forth-color);
 }
 
 .nav-left span {
@@ -96,8 +94,8 @@ nav {
 }
 
 .fa-solid {
-    color: var(--primary-color);
-    cursor: pointer;
+  color: var(--primary-color);
+  cursor: pointer;
 }
 
 .nav-right p {
@@ -292,7 +290,6 @@ nav {
   position: relative;
   text-align: center;
   color: var(--primary-color);
-
 }
 
 #second-headtext-eng {
@@ -482,7 +479,7 @@ nav {
   position: absolute;
   bottom: -25%;
   font-family: "Shantell Sans", cursive;
-  color: var( --secondary-color);
+  color: var(--secondary-color);
   font-size: medium;
   background-color: var(--primary-color);
   padding: 8px 10px;
@@ -632,7 +629,6 @@ footer {
   font-family: "Kiwi Maru", serif;
   font-size: x-large;
   color: rgb(140, 140, 140);
-  
 }
 
 .copyright {
@@ -645,7 +641,7 @@ footer {
 }
 
 .copyright p {
-  color: var( --secondary-color);
+  color: var(--secondary-color);
   font-size: medium;
 }
 
@@ -676,8 +672,8 @@ footer {
   .secondContainer article button {
     bottom: 20px;
   }
-  
- /* --------------------------- */
+
+  /* --------------------------- */
   .thirdContainer {
     height: 75%;
   }
@@ -690,26 +686,24 @@ footer {
     bottom: -28%;
   }
 
-/* -------------------------- */
+  /* -------------------------- */
   .forthContainer {
     height: 110%;
   }
 
-  .forth-article  {
+  .forth-article {
     height: 700px;
     top: 54%;
   }
 
- 
-/* -------------------------- */
+  /* -------------------------- */
   footer {
     height: 30%;
   }
 
- .final-text {
-  height: 55%;
- }
-  
+  .final-text {
+    height: 55%;
+  }
 }
 /* ------------------------------ */
 /* 
@@ -780,12 +774,10 @@ footer {
 
 } */
 
-
 @media only screen and (max-width: 376px) {
-
   nav {
     height: 40px;
-  } 
+  }
 
   .nav-left {
     width: 50%;
@@ -808,13 +800,12 @@ footer {
   }
 
   .fa-solid {
-   font-size: 1em !important;
+    font-size: 1em !important;
   }
 
   .nav-right p {
     font-size: small;
   }
-
 
   .firstContainer {
     margin-top: 8%;
@@ -825,23 +816,20 @@ footer {
     margin-top: 8%;
   }
 
- 
-    #sub-left-eng {
-      font-size: 100% !important;
-    }
-  
-    #sub-left-jp {
-      font-size: 80% !important;
-    }
-  
+  #sub-left-eng {
+    font-size: 100% !important;
+  }
+
+  #sub-left-jp {
+    font-size: 80% !important;
+  }
 
   .headtext-sub-right p:nth-child(1) {
     font-size: 50%;
-
   }
 
   .headtext-sub-right p:nth-child(2) {
-    font-size: 10% !important;
+    font-size: 2%;
   }
 
   .first-sub {
@@ -875,25 +863,23 @@ footer {
     height: 40%;
   }
 
-
-    #second-headtext-eng {
-      font-size: 100% !important;
-    }
-    #second-headtext-jp {
-      font-size: 80% !important;
-    }
-  
+  #second-headtext-eng {
+    font-size: 100% !important;
+  }
+  #second-headtext-jp {
+    font-size: 80% !important;
+  }
 
   .secondContainer article {
-    height: 80%;
+    /* border: 1px solid; */
+    height: 65%;
   }
 
   .second-article-text {
-    top: 50px;
+    margin-top: 10px;
   }
 
   .second-article-text {
-    /* margin-top: 30px; */
     width: 90%;
   }
 
@@ -908,7 +894,7 @@ footer {
   .secondContainer article button {
     font-size: 40%;
     padding: 3px 6px;
-    bottom: 5%;
+    bottom: 0%;
     left: 42%;
   }
 
@@ -926,8 +912,9 @@ footer {
   }
 
   .thirdContainer article {
-    height: 70%;
-    top: 65%;
+    /* border: 1px solid; */
+    height: 60%;
+    top: 60%;
   }
 
   .third-article-text p {
@@ -942,27 +929,26 @@ footer {
   .thirdContainer article button {
     font-size: 40%;
     padding: 3px 6px;
-    bottom: 5%;
+    bottom: 0%;
     left: 42%;
   }
 
   /* ---------------- */
 
   .forthContainer {
-    height: 50%;
+    height: 60%;
   }
 
   .forthContainer-headtext {
     top: 13%;
-
   }
 
   #forth-headtext-eng {
-      font-size: 100% !important;
-    }
-    #forth-headtext-jp {
-      font-size: 80% !important;
-    }
+    font-size: 100% !important;
+  }
+  #forth-headtext-jp {
+    font-size: 80% !important;
+  }
 
   .forthContainer article {
     height: 70%;
@@ -989,11 +975,11 @@ footer {
 
   /* ---------------------- */
   footer {
-    height: 15%;
+    height: 20%;
   }
 
   .final-text {
-    height: 75%;
+    height: 60%;
   }
 
   .final-text p {
@@ -1004,7 +990,7 @@ footer {
     font-size: 70%;
     margin-top: 5px;
   }
-  
+
   #last-jp {
     font-size: 60%;
     margin-top: 0px;
@@ -1013,9 +999,4 @@ footer {
   .copyright p {
     font-size: 50%;
   }
- 
-  
-
-
-
 }
