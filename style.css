@@ -241,20 +241,20 @@ nav {
   position: absolute;
   display: flex;
   justify-content: space-between;
+}
 
-  .right-bottom-1 {
-    /* border: 1px solid green; */
-    width: 46%;
-    height: 100%;
-    overflow: hidden;
-  }
+.right-bottom-1 {
+  /* border: 1px solid green; */
+  width: 46%;
+  height: 100%;
+  overflow: hidden;
+}
 
-  .right-bottom-2 {
-    /* border: 1px solid green; */
-    width: 46%;
-    height: 100%;
-    overflow: hidden;
-  }
+.right-bottom-2 {
+  /* border: 1px solid green; */
+  width: 46%;
+  height: 100%;
+  overflow: hidden;
 }
 
 .right-bottom-1:hover #koi {
@@ -293,13 +293,14 @@ nav {
   text-align: center;
   color: var(--primary-color);
 
-  #second-headtext-eng {
-    font-size: xxx-large;
-  }
-  #second-headtext-jp {
-    font-family: "Kiwi Maru", serif;
-    font-size: xx-large;
-  }
+}
+
+#second-headtext-eng {
+  font-size: xxx-large;
+}
+#second-headtext-jp {
+  font-family: "Kiwi Maru", serif;
+  font-size: xx-large;
 }
 
 .secondContainer article {
@@ -317,7 +318,7 @@ nav {
 .second-article-text {
   /* border: 1px solid rgb(102, 42, 175); */
   display: inline-block;
-  margin-top: 20px;
+  margin-top: 50px;
   width: 100%;
   text-align: center;
   color: var(--primary-color);
@@ -330,7 +331,7 @@ nav {
 .secondContainer article figure {
   /* border: 1px solid rgb(102, 42, 175); */
   height: 40%;
-  margin-top: 50px;
+  margin-top: 40px;
   display: flex;
   justify-content: space-between;
 }
@@ -415,14 +416,14 @@ nav {
   position: absolute;
   text-align: center;
   color: var(--primary-color);
+}
 
-  #third-headtext-eng {
-    font-size: xxx-large;
-  }
-  #third-headtext-jp {
-    font-family: "Kiwi Maru", serif;
-    font-size: xx-large;
-  }
+#third-headtext-eng {
+  font-size: xxx-large;
+}
+#third-headtext-jp {
+  font-family: "Kiwi Maru", serif;
+  font-size: xx-large;
 }
 
 .thirdContainer article {
@@ -527,14 +528,14 @@ nav {
   position: absolute;
   text-align: center;
   color: var(--primary-color);
+}
 
-  #forth-headtext-eng {
-    font-size: xxx-large;
-  }
-  #forth-headtext-jp {
-    font-family: "Kiwi Maru", serif;
-    font-size: xx-large;
-  }
+#forth-headtext-eng {
+  font-size: xxx-large;
+}
+#forth-headtext-jp {
+  font-family: "Kiwi Maru", serif;
+  font-size: xx-large;
 }
 
 .forth-article-text {
