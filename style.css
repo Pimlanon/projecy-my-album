@@ -828,21 +828,23 @@ footer {
     text-align: center;
   
     #sub-left-eng {
-      font-size: 100%;
+      font-size: 80%;
+      color: var(--primary-color);
     }
   
     #sub-left-jp {
-      font-size: 80%;
+      font-size: 70%;
+      color: rgb(140, 140, 140);
     }
   }
 
   .headtext-sub-right p:nth-child(1) {
     font-size: 50%;
-    color: var(--primary-color);
+
   }
 
   .headtext-sub-right p:nth-child(2) {
-    font-size: 20%;
+    font-size: 10%;
   }
 
   .first-sub {
@@ -880,10 +882,10 @@ footer {
   .secondContainer-headtext {
 
     #second-headtext-eng {
-      font-size: 100%;
+      font-size: 80%;
     }
     #second-headtext-jp {
-      font-size: 80%;
+      font-size: 70%;
     }
   
   }
@@ -925,10 +927,10 @@ footer {
   .thirdContainer-headtext {
 
     #third-headtext-eng {
-      font-size: 100%;
+      font-size: 80%;
     }
     #third-headtext-jp {
-      font-size: 80%;
+      font-size: 70%;
     }
   }
 
@@ -963,10 +965,10 @@ footer {
     top: 13%;
 
     #forth-headtext-eng {
-      font-size: 100%;
+      font-size: 80%;
     }
     #forth-headtext-jp {
-      font-size: 80%;
+      font-size: 70%;
     }
   }
 
