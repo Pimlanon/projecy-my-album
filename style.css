@@ -318,7 +318,7 @@ nav {
   /* border: 1px solid rgb(102, 42, 175); */
   display: inline-block;
   margin-top: 20px;
-  width: 80%;
+  width: 100%;
   text-align: center;
   color: var(--primary-color);
 }
@@ -599,15 +599,17 @@ nav {
 /* -------------------- */
 
 footer {
-  height: 30%;
+  /* border: 1px solid; */
+  height: 55%;
   width: 100%;
   position: relative;
 }
 
 .final-text {
   /* border: 1px solid rgb(42, 175, 95); */
-  width: 50%;
-  height: 70%;
+  /* width: 50%;  */
+  height: 55%;
+
   position: absolute;
   top: 50%;
   left: 50%;
@@ -617,21 +619,23 @@ footer {
 }
 
 .final-text p {
-  font-size: 150%;
+  font-size: 120%;
   margin-bottom: 1%;
 }
 
 .final-text h2 {
-  font-size: xx-large;
+  font-size: x-large;
 }
 
 #last-jp {
   font-family: "Kiwi Maru", serif;
   font-size: x-large;
   color: rgb(140, 140, 140);
+  
 }
 
 .copyright {
+  margin-top: 50px;
   width: 100%;
   height: 15%;
   position: absolute;
@@ -646,4 +650,378 @@ footer {
 
 #copyright-jp {
   font-family: "Kiwi Maru", serif;
+}
+
+/* ------------ */
+
+@media only screen and (max-width: 1920px) {
+  .firstContainer {
+    height: 75%;
+  }
+
+  /*---------------------------  */
+  .secondContainer {
+    height: 65%;
+  }
+
+  .secondContainer article {
+    top: 60%;
+  }
+
+  .second-article-text {
+    width: 70%;
+  }
+
+  .secondContainer article button {
+    bottom: 20px;
+  }
+  
+ /* --------------------------- */
+  .thirdContainer {
+    height: 75%;
+  }
+
+  .thirdContainer article {
+    top: 55%;
+  }
+
+  .thirdContainer article button {
+    bottom: -28%;
+  }
+
+/* -------------------------- */
+  .forthContainer {
+    height: 110%;
+  }
+
+  .forth-article  {
+    height: 700px;
+    top: 54%;
+  }
+
+ 
+/* -------------------------- */
+  footer {
+    height: 30%;
+  }
+
+ .final-text {
+  height: 55%;
+ }
+  
+}
+/* ------------------------------ */
+/* 
+@media only screen and (max-width: 1435px) {
+  .nav-left {
+    width: 35%;
+  }
+
+  footer {
+    height: 35%;
+  }
+
+  .final-text {
+    height: 60%;
+   }
+
+
+}
+
+@media only screen and (max-width: 1235px) {
+  .nav-left {
+    width: 35%;
+  }
+
+  .nav-left span {
+    font-size:x-large;
+    font-weight: 500;
+  }
+
+  .forthContainer {
+    height: 100%;
+  }
+
+  .forth-article {
+    top: 60%;
+  }
+
+  .forth-article figure {
+    height: 60%;
+    bottom: 20%;
+  }
+
+}
+
+@media only screen and (max-width: 925px) {
+  .nav-left {
+    width: 35%;
+  }
+
+  .nav-left span {
+    font-size: larger;
+    font-weight: 500;
+  }
+
+  .forthContainer {
+    height: 90%;
+  }
+
+  .forth-article {
+    top: 62%;
+  }
+
+  .forth-article figure {
+    height: 50%;
+    bottom: 28%;
+  }
+  
+
+} */
+
+
+@media only screen and (max-width: 600px) {
+
+  nav {
+    height: 40px;
+  } 
+
+  .nav-left {
+    width: 50%;
+    margin-left: 10px;
+  }
+
+  .nav-left span {
+    font-size: small;
+    font-weight: 400;
+  }
+
+  .nav-left img {
+    width: 12%;
+    height: 50%;
+  }
+
+  .nav-right {
+    width: 20%;
+    margin-right: 20px;
+  }
+
+  .fa-solid {
+   font-size: 1em !important;
+  }
+
+  .nav-right p {
+    font-size: small;
+  }
+
+
+  .firstContainer {
+    margin-top: 8%;
+    height: 35%;
+  }
+
+  .firstContainer-headtext-sub {
+    margin-top: 8%;
+  }
+
+  .headtext-sub-left {
+    text-align: center;
+  
+    #sub-left-eng {
+      font-size: 100%;
+    }
+  
+    #sub-left-jp {
+      font-size: 80%;
+    }
+  }
+
+  .headtext-sub-right p:nth-child(1) {
+    font-size: 50%;
+    color: var(--primary-color);
+  }
+
+  .headtext-sub-right p:nth-child(2) {
+    font-size: 20%;
+  }
+
+  .first-sub {
+    height: 52%;
+    top: 8%;
+  }
+
+  .first-sub-left {
+    width: 49%;
+  }
+
+  .first-sub-right-top {
+    height: 55%;
+  }
+
+  .first-sub-right-bottom {
+    height: 40%;
+
+    .right-bottom-1 {
+      width: 47.5%;
+    }
+
+    .right-bottom-2 {
+      width: 47.5%;
+    }
+  }
+
+  /* ------------------------ */
+
+  .secondContainer {
+    height: 40%;
+  }
+
+
+  .secondContainer-headtext {
+
+    #second-headtext-eng {
+      font-size: 100%;
+    }
+    #second-headtext-jp {
+      font-size: 80%;
+    }
+  
+  }
+
+  .secondContainer article {
+    height: 80%;
+  }
+
+  .second-article-text {
+    top: 50px;
+  }
+
+  .second-article-text {
+    /* margin-top: 30px; */
+    width: 90%;
+  }
+
+  .second-article-text p {
+    font-size: 55%;
+  }
+
+  .secondContainer article figure {
+    margin-top: 20px;
+  }
+
+  .secondContainer article button {
+    font-size: 40%;
+    padding: 3px 6px;
+    bottom: 5%;
+    left: 42%;
+  }
+
+  /* ---------------- */
+
+  .thirdContainer {
+    height: 40%;
+  }
+
+  .thirdContainer-headtext {
+
+    #third-headtext-eng {
+      font-size: 100%;
+    }
+    #third-headtext-jp {
+      font-size: 80%;
+    }
+  }
+
+  .thirdContainer article {
+    height: 70%;
+    top: 65%;
+  }
+
+  .third-article-text p {
+    font-size: 60%;
+  }
+
+  .thirdContainer article figure {
+    height: 50%;
+    margin-top: 10px;
+  }
+
+  .thirdContainer article button {
+    font-size: 40%;
+    padding: 3px 6px;
+    bottom: 5%;
+    left: 42%;
+  }
+
+  /* ---------------- */
+
+  .forthContainer {
+    height: 50%;
+  }
+
+  .forthContainer-headtext {
+    top: 13%;
+
+    #forth-headtext-eng {
+      font-size: 100%;
+    }
+    #forth-headtext-jp {
+      font-size: 80%;
+    }
+  }
+
+  .forthContainer article {
+    height: 70%;
+    top: 55%;
+  }
+
+  .forth-article-text {
+    top: 20%;
+  }
+
+  .forth-article-text p {
+    font-size: 60%;
+  }
+
+  .forthContainer article figure {
+    height: 55%;
+    margin-top: 10px;
+  }
+
+  .forth-img p {
+    margin-top: 0px;
+    font-size: 40%;
+  }
+
+  /* ---------------------- */
+  footer {
+    height: 15%;
+  }
+
+  .final-text {
+    height: 75%;
+  }
+
+  .final-text p {
+    font-size: 50%;
+  }
+
+  .final-text h2 {
+    font-size: 70%;
+    margin-top: 5px;
+  }
+  
+  #last-jp {
+    font-size: 60%;
+    margin-top: 0px;
+  }
+
+  .copyright p {
+    font-size: 50%;
+  }
+ 
+  
+
+
+
 }
