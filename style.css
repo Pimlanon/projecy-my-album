@@ -149,17 +149,17 @@ nav {
 
 .headtext-sub-left {
   text-align: center;
+}
 
-  #sub-left-eng {
-    font-size: xxx-large;
-    color: var(--primary-color);
-  }
+#sub-left-eng {
+  font-size: xxx-large;
+  color: var(--primary-color);
+}
 
-  #sub-left-jp {
-    font-family: "Kiwi Maru", serif;
-    font-size: xx-large;
-    color: rgb(140, 140, 140);
-  }
+#sub-left-jp {
+  font-family: "Kiwi Maru", serif;
+  font-size: xx-large;
+  color: rgb(140, 140, 140);
 }
 
 .headtext-sub-right {
@@ -824,19 +824,15 @@ footer {
     margin-top: 8%;
   }
 
-  .headtext-sub-left {
-    text-align: center;
-  
+ 
     #sub-left-eng {
-      font-size: 80% !important;
-      color: var(--primary-color);
+      font-size: 100% !important;
     }
   
     #sub-left-jp {
-      font-size: 70% !important;
-      color: rgb(140, 140, 140);
+      font-size: 80% !important;
     }
-  }
+  
 
   .headtext-sub-right p:nth-child(1) {
     font-size: 50%;
@@ -879,16 +875,13 @@ footer {
   }
 
 
-  .secondContainer-headtext {
-
     #second-headtext-eng {
-      font-size: 80% !important;
+      font-size: 100% !important;
     }
     #second-headtext-jp {
-      font-size: 70% !important;
+      font-size: 80% !important;
     }
   
-  }
 
   .secondContainer article {
     height: 80%;
@@ -924,8 +917,11 @@ footer {
     height: 40%;
   }
 
-  .thirdContainer-headtext h1 {
-      font-size: 80% !important;
+  #third-headtext-eng {
+    font-size: 100% !important;
+  }
+  #third-headtext-jp {
+    font-size: 80% !important;
   }
 
   .thirdContainer article {
@@ -961,10 +957,10 @@ footer {
   }
 
   #forth-headtext-eng {
-      font-size: 80% !important;
+      font-size: 100% !important;
     }
     #forth-headtext-jp {
-      font-size: 70% !important;
+      font-size: 80% !important;
     }
 
   .forthContainer article {
