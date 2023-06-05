@@ -828,12 +828,12 @@ footer {
     text-align: center;
   
     #sub-left-eng {
-      font-size: 80%;
+      font-size: 80% !important;
       color: var(--primary-color);
     }
   
     #sub-left-jp {
-      font-size: 70%;
+      font-size: 70% !important;
       color: rgb(140, 140, 140);
     }
   }
@@ -844,7 +844,7 @@ footer {
   }
 
   .headtext-sub-right p:nth-child(2) {
-    font-size: 10%;
+    font-size: 10% !important;
   }
 
   .first-sub {
@@ -882,10 +882,10 @@ footer {
   .secondContainer-headtext {
 
     #second-headtext-eng {
-      font-size: 80%;
+      font-size: 80% !important;
     }
     #second-headtext-jp {
-      font-size: 70%;
+      font-size: 70% !important;
     }
   
   }
@@ -927,10 +927,10 @@ footer {
   .thirdContainer-headtext {
 
     #third-headtext-eng {
-      font-size: 80%;
-    }
+      font-size: 80% !important;
+    } 
     #third-headtext-jp {
-      font-size: 70%;
+      font-size: 70% !important;
     }
   }
 
@@ -965,10 +965,10 @@ footer {
     top: 13%;
 
     #forth-headtext-eng {
-      font-size: 80%;
+      font-size: 80% !important;
     }
     #forth-headtext-jp {
-      font-size: 70%;
+      font-size: 70% !important;
     }
   }
 
