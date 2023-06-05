@@ -924,14 +924,8 @@ footer {
     height: 40%;
   }
 
-  .thirdContainer-headtext {
-
-    #third-headtext-eng {
+  .thirdContainer-headtext h1 {
       font-size: 80% !important;
-    } 
-    #third-headtext-jp {
-      font-size: 70% !important;
-    }
   }
 
   .thirdContainer article {
@@ -964,13 +958,14 @@ footer {
   .forthContainer-headtext {
     top: 13%;
 
-    #forth-headtext-eng {
+  }
+
+  #forth-headtext-eng {
       font-size: 80% !important;
     }
     #forth-headtext-jp {
       font-size: 70% !important;
     }
-  }
 
   .forthContainer article {
     height: 70%;
